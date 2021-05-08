@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "MainPage";
+}
+
+@{
+
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>MainPage</title>
+
+</head>
+
+<body>
+
+    <h1>
+
+        Пункты меню
+
+    </h1>
+
+    @using (Html.BeginForm("CalcPage", "Calc"))
+
+    {
+
+        <div>
+
+            <input type="submit" value="Калькулятор" />
+
+        </div>
+
+    }
+
+    <br />
+
+    @using (Html.BeginForm("ArrPage", "ArrLaba1"))
+    {
+
+        <div>
+
+            <input type="submit" value="Массивы" />
+
+        </div>
+    }
+
+    <br />
+
+    @using (Html.BeginForm("Calc8bitPage", "Calc8bit"))
+
+    {
+
+        <div>
+
+            <input type="submit" value="Калькулятор (8/7 система счисления)" />
+
+        </div>
+
+    }
+    <br />
+
+</body>
+
+</html>
+

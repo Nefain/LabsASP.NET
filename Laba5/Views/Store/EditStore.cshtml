@@ -1,0 +1,46 @@
+﻿@model Laba5.Storage.Entity.Store
+
+@{
+    ViewData["Title"] = "EditStore";
+}
+
+<h1>Edit Store</h1>
+
+<h4>Store</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeStore" class="control-label"></label>
+                <input asp-for="TypeStore" class="form-control" />
+                <span asp-validation-for="TypeStore" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="MainStore" /> @Html.DisplayNameFor(model => model.MainStore)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductId" class="control-label"></label>
+                <select asp-for="ProductId" class="form-control" asp-items="ViewBag.ProductId"></select>
+                <span asp-validation-for="ProductId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ShowStore">Back to List</a>
+</div>
+

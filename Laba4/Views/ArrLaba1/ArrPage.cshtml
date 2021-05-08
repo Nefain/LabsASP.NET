@@ -1,0 +1,45 @@
+﻿@using ООП_л3.Models
+@model List<ArrLaba1>
+@{
+    ViewData["Title"] = "ArrPage";
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Arr</title>
+</head>
+<body>
+    <h1> Лаба 1 </h1>
+    @{
+        foreach (var item in Model)
+        {
+            <label>@item.Num</label>
+        }
+    }
+    <h2> Ввод массива </h2>
+    @using (Html.BeginForm("Add", "ArrLaba1", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.Label("Число") @Html.TextBox("num")<br />
+        <input type="submit" value="Add" />
+    }
+    @using (Html.BeginForm("Result", "ArrLaba1", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.Label("Кратность какому числу") @Html.TextBox("Crat")<br />
+        @Html.Label("Результат")  @Html.TextBoxFor(x => ArrLaba1.Result)<br />
+        <input type="submit" value="Result" />
+    }
+
+    <div>
+        @Html.ActionLink("Откат", "MainPage", "Calc")
+    </div>
+</body>
+</html>
+
+

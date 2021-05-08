@@ -1,0 +1,34 @@
+﻿@using ООП_л3.Models
+@model Calc
+@{
+    ViewData["Title"] = "CalcPage";
+}
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Calc</title>
+</head>
+<body>
+    <h1> Калькулятор </h1>
+    @using (Html.BeginForm("CalcPage", "Calc", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.LabelFor(m => m.Expression) @Html.TextBoxFor(x => x.Expression)<br />
+        @Html.LabelFor(m => m.Result) @Html.TextBoxFor(x => x.Result)<br />
+        <input type="submit" />
+    }
+
+<div>
+    @Html.ActionLink("Откат", "MainPage", "Calc")
+</div>
+
+</body>
+</html>
+
