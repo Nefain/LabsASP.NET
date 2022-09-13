@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0P6EbmAejF2/lAAxK9pnyjlQFWnfVo0rbljSP1Wrbdfh+nMbsPpeGQrLkBGs7MeHY4LO9hUe3dSrBQlItFRoA==",
+  "dgSpecHash": "BfXs5pLsSKDowdUodKznhwsVrRZYusMOQV4TvDY6fFAO552x1addt+U2MuWc4H/YfkZYLLFb11HXLLBj6TR3Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ростислав\\source\\repos\\Laba4\\Laba4.csproj",
+  "projectFilePath": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba4\\Laba4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ростислав\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
     "C:\\Users\\Ростислав\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",

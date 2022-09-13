@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rxZP/m3hCUctKUrYGb//iIy7d59mB+jk0SmJo7bcHoIPqUTdCzfd/YbQBdHcShWM0786jGiuhzuVh7Ar36viGA==",
+  "dgSpecHash": "wMDL+oyyVJ37Id/Hywa03Z8UCyeFLTJ81/s37Tql3N7xBoSnXfWwYfIMNm4DTOMA0+pmiZjFPaEuzNFx53MAHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ростислав\\source\\repos\\Laba5\\Laba5.csproj",
+  "projectFilePath": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba5\\Laba5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ростислав\\.nuget\\packages\\json\\1.0.1\\json.1.0.1.nupkg.sha512",
     "C:\\Users\\Ростислав\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

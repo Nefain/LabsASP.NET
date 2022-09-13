@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ростислав\\source\\repos\\Laba4\\Laba4.csproj": {}
+    "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba4\\Laba4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ростислав\\source\\repos\\Laba4\\Laba4.csproj": {
+    "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba4\\Laba4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ростислав\\source\\repos\\Laba4\\Laba4.csproj",
+        "projectUniqueName": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba4\\Laba4.csproj",
         "projectName": "Laba4",
-        "projectPath": "C:\\Users\\Ростислав\\source\\repos\\Laba4\\Laba4.csproj",
+        "projectPath": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba4\\Laba4.csproj",
         "packagesPath": "C:\\Users\\Ростислав\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ростислав\\source\\repos\\Laba4\\obj\\",
+        "outputPath": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ростислав\\AppData\\Roaming\\NuGet\\NuGet.Config",

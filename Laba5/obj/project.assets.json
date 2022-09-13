@@ -9232,11 +9232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ростислав\\source\\repos\\Laba5\\Laba5.csproj",
+      "projectUniqueName": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba5\\Laba5.csproj",
       "projectName": "Laba5",
-      "projectPath": "C:\\Users\\Ростислав\\source\\repos\\Laba5\\Laba5.csproj",
+      "projectPath": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba5\\Laba5.csproj",
       "packagesPath": "C:\\Users\\Ростислав\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ростислав\\source\\repos\\Laba5\\obj\\",
+      "outputPath": "C:\\Users\\Ростислав\\Documents\\GitHub\\LabsASP.NET\\Laba5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ростислав\\AppData\\Roaming\\NuGet\\NuGet.Config",
